@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="70" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="game.dat_000007" tilewidth="16" tileheight="16">
+  <image source="game.dat_000007.png" width="464" height="256"/>
+ </tileset>
+ <layer name="stop" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztlEEKACEMA/1J///LxauING162hkQFOrkoGQtAIjGvbicM754rK5PyVB8lZlJnyNT8anZbl/2Pav/+cw6911cnr9DX+V8lZlJnyNT8anZbh99BRv6KuerzEz6HJmKT812++gr2NBXOV9lZtLnyFR8arbbR1/Biw8Kwx0R
+  </data>
+ </layer>
+ <layer name="trans" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt1DENAAAIBDH828MQAljYyCetgpuuCgC2/g4AOPIrIIVfASn8KssA1iQDTQ==
+  </data>
+ </layer>
+ <layer name="background" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt1LEJgDAQheFLo26RQt1DnUKzh2YPzZRO4RUpQiDkEBGir/gQjvDsfk1EGuCjZrZETHA3nnRvZVvEBnfrSfd2dkRccHeedK9SRHVGo+R7Lb/tMnrsJQ38dky4s5f718nf6aE9eB96hV6hV1AK9Aq9Qq+gFOgVeoVewV9cYoba5Q==
+  </data>
+ </layer>
+ <layer name="other" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJzt1E0OwVAUhuHbCQlhEySEPQgJy6BYhZ9aRiVsAhPdRNkHNuFN2oHc2WGifG/yJLe5uSfp5Din1P8UYvrB+xLKWGKBCJv8rocKqoZ5DTSxRYwd9hgH2X0LbcO8PgYv32ckWDFvjSHnkWFejTd1HDgfPSfMMDfM6zCri5TzxXPFhLswMAzMu+Huebjsn6M35in1DWlfaV8pVZS0r7SvlCpK2lfaV0r9ak/4IGyJ
+  </data>
+ </layer>
+ <layer name="box" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAMw6A6u39X17EEqLoAAAAAAFjzd08AQA==
+  </data>
+ </layer>
+ <layer name="grass" width="20" height="70">
+  <data encoding="base64" compression="zlib">
+   eJztwQEJAAAAAqCe9f9VOwK1AQAAAADg0QB4SwBA
+  </data>
+ </layer>
+ <objectgroup name="object" width="20" height="70">
+  <object name="x12y19" x="192" y="304" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house4ToVillage"/>
+   </properties>
+  </object>
+  <object name="x12y34" x="192" y="544" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house3ToVillage"/>
+   </properties>
+  </object>
+  <object name="x12y49" x="192" y="784" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house2ToVillage"/>
+   </properties>
+  </object>
+  <object name="x12y64" x="192" y="1024" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house1ToVillage"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

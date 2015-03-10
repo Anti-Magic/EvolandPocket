@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="game.dat_000014" tilewidth="16" tileheight="16">
+  <image source="map031.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="game.dat_000017" tilewidth="16" tileheight="16">
+  <image source="map032.png" width="64" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="game.dat_000012" tilewidth="16" tileheight="16">
+  <image source="mapworld.png" width="256" height="256"/>
+ </tileset>
+ <layer name="trans" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzqERACAMBMEMrVBtusbjEOHNrjl7VZDX6QEAgCF9FQAAAAAAAADgxV7pA/jrAER0AcE=
+  </data>
+ </layer>
+ <layer name="noenemy" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt19sNwCAMA0DUVbr/jhUfTFCkEHM3QSxHPMaAeu9TPcEe3XOs+bvnAPjDGXiOlC7S7lc52EUH3GDuuV2vpwMAAKaUd2FKDgAA4Hwp/w85oKcP9icCwA==
+  </data>
+ </layer>
+ <layer name="background" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzrENAAAEADBO96KLvGAU6dC9lREFAACw0AcOAAAAAAAAAAD8Nb2Q9A0=
+  </data>
+ </layer>
+ <layer name="world" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2FEKwjAQRdHqDlyqS3MJNmnXZQMKIRg6lcq8DPdAvhTMbWibOE2Av9vVewYAAAD/cQ+2z3lcvGdwjrR1zNtYgvQ86ZBChxavjvx+zsyG5002fM+ro/3d3jxKw1p9lpr+z1hFOtTmZ8V9qSVKR2JPJIcOLRE62vf0iEZuyAPtNXpGvv417mcdEdai+HUf1Z4XFf6jsq7J3jPNe217Z72jZz/vjrPQoYUOLXRoUer49p62DqV9mtI1PSrCGaoYeQ1qdGiJ0gFYvQBeB1ta
+  </data>
+ </layer>
+ <layer name="box" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJADAIA0AdrPuvJQ5hRbibIJ+QRAAAAAAw4eV2AgAAoPnmAPxkd+A2HQaAfQUxnAD5
+  </data>
+ </layer>
+ <layer name="grass" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztVVsKAzEI7HV6/wv2px8Soo7xEQMOFJaumpnVMZ/PYDAYDBB8/7/X8V1+L+NlDZT7quMlTVIPus3Zjo/GrWNfVg8j37ij7zkdEr9XdNB3SM6gFzr35YZPJK9y51hyOJ4ZPonYO5bvsMuPgIWHtRfSmbtnDzJ03LpHdjON3AFrrufcCHi94Tk3CtpcW86y6or2Oa3p0XESHwXJx+t/SK3bOrT9iepAY6OB7k2NG3p3ZEKaJxpjrVEJ7d7bPXcE1wNrP07OjN67nNe9NSXfddah8Uf2ySk8dU95Z+vw5N3WgXKmXOlzhJYKRHzvah1cbWTndNaR2YPsubJokGpYvkc1d40zMo9ZOk5qoZx2fdnlRyBz1iu9oc2xVatVR5bPdxwkXlwsF1+pgeOBcJPyu2hBuHG5XFy1Do1X935YeKHx67ssrlF1NM0VOpD6Ugw6UxV7F+GI1rrpcQ5eHbd9TiHtMe19Jx0U3Myge7g7pH08GNzGDxrxdRQ=
+  </data>
+ </layer>
+ <layer name="other" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1DkNAAAIADHs4d8QAx54klbBTRcB0HI7AOAALwSY4bfAFL8BAAAAAACAXwpXZAEl
+  </data>
+ </layer>
+ <layer name="stop" width="50" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztmutt3EAMhC271KsoPjeQki4Pp4EU4gjOAsxkhhzyJBgBQmBx0porzceX8iNPjw8PT//XP7eu29/rozW5a7d1/fxL96ftfW//fT6Bgxlqwf3OcxfHy2+OlyYH0+X4sDMOh/ueo616V0dnFpuJFjdeP7f35TB1OLqxYv4d7sWx1rQHjsyZEwe2Yk5QA3tWh9GJ5fT8bjH+mIvI5K7P2zFrmgPGH+vMzcdRHF/C+r5pPVg/qBF9v8Gz1TojHzfCgUwqruh7A/+p3bbaR51RHNlcYhyT/jubYxmyLJ6KY/l17atZn3H9GJzZje2/hrqa5AP9O7N2kkNlWIcVC9PlzgoVw0obzlXl43BUerJeZTOI1Xh2RvEwDicP2V6lpXsme86UY2lAPer7Ws3Rbi6UsdnW7Q2M7xkck/6o5kv1t/hcfIeK31qXx1pzZsgRNbFfda3ig7o6vl0OptXJB+5XdY3vqnR1uFSfZ72Q9Ud8ZsbhsnQt0xx9GE/kuIg+xr2KY1JnVZwVB14zvazOXI7422XIZpbD4cxNxaFmHupk2p09ZFD8jAV1RQ5Vw5NvQodD9cu6ZnmI/RI5nHg69VHVDl4r7YwjxhSvFYerEVeVu4qDxZB9m5GhG1fn3ytsDmY1mO2rHLgcaJV+tZw+qmog6w88H+/v0c3i1elptqfmrHomi/29TN3ZxLgz7TFnUSvTfQ9LZ3Ypjqj1YjCcsVhcs+vsHrWq/aNqKeNQ8a/mmOI4MweKQ9W70sxytrS7DMqiD/suOX2u9GU+rvZKs1OPLkc279EvvqtjLiurU8WezayM6ehv2TQfTK+y7NtS9bVT3/fWlcoHY1D5UIYsLs80H9V3uuqbLA6T3Ezy4cyqyTxjc+BojuiT9bPicPIT77t9Ms1HVR/ZPGP6kX23iznb0DK/ama5HMofcz41hxnzwTTHPcar/OM72FnUOuVgdTXlYPeosep9x7IeZ9qr+q/mLDP23Hs5sj6P71m/1+3PX8ZxBS3x/yjGe2RSPYt7HY4YOzSlqdpjf8tqkNWMO4dVjFk+Mh6HM+NQhiwxl0p7tFgzTKe72JmslrO+c/3Qd2lALUxb3GPn2HWW/2q2dNYk/m5+3Pevmsi+A9Xebm9CEEn6
+  </data>
+ </layer>
+ <objectgroup name="object" width="50" height="60">
+  <object name="x11y56" x="176" y="896" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="worldMapToScene"/>
+   </properties>
+  </object>
+  <object name="x34y14" x="544" y="224" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="transToVillage"/>
+   </properties>
+  </object>
+  <object name="x16y50" x="256" y="800" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="mode7Enable"/>
+   </properties>
+  </object>
+  <object name="x18y22" x="288" y="352" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="forceEnable"/>
+   </properties>
+  </object>
+  <object name="x11y37" x="176" y="592" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="roundEnable"/>
+   </properties>
+  </object>
+  <object name="x25y45" x="400" y="720" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star3"/>
+   </properties>
+  </object>
+  <object name="x12y3" x="192" y="48" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="worldToHole"/>
+   </properties>
+  </object>
+  <object name="x32y14" x="512" y="224" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="transToVillage2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

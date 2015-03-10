@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="map031" tilewidth="16" tileheight="16">
+  <image source="map031.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="map032" tilewidth="16" tileheight="16">
+  <image source="map032.png" width="64" height="512"/>
+ </tileset>
+ <tileset firstgid="385" name="game.dat_000001" tilewidth="16" tileheight="16">
+  <image source="game.dat_000001.png" width="464" height="256"/>
+ </tileset>
+ <layer name="noenemy" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEKACAMA8D6/1/4UgdxdCoihDvoA5KpqQIAbubYBwAAAL8k7NKzrxOyvKAXAIC+lJ9KDoC+BUjfBl8=
+  </data>
+ </layer>
+ <layer name="background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMA6C9f4slXY6Dgr2kqqqqqqqqqqqq+vwAdA84Jw==
+  </data>
+ </layer>
+ <layer name="trans" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2TENAAAIwDDw7wKlHNxchK9NpmIRAMCmcgIAAAAAAIBvvhTAXQMn6QHq
+  </data>
+ </layer>
+ <layer name="stop" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl20KwjAMhmvv4Mc1/LqGB1HwGnrEHWXqHzNEkNK6N23atSyBh8IYTZ5kHbRbGNMpigKRGjn3RnKoBz+Hm4tbl3qUjbH6Us59SVeJebicrTEXW3Z2knP4ciOHe8Ajh4/U+XDpiVdCH7jf71idsR5LmsVmZB45XFyn1HnsyOFYyMPnEnrWCi3W7GNrP0xdRyon+yF1njVGSx5IXbV7oDW16IG+V4sHp4ZaPbg1zN0j5n8X+99Xj3l7SAey99XKe8T2EvHoiQfx9KzonQ7x+Ncbjnsox3B3WxFrz4re6VAPTn+5HsPdbU8cPCt6p5OKFA/JvTlnIrbm1jxCdbTkgUYuD6mcaKiHjEcOcuZXj7o8fvfnfofSIeHB7Z16qMccPKR6MTVS/Zga9SjDGwor+6k=
+  </data>
+ </layer>
+ <layer name="other" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwzENADAIALCFmcAGRuZfzg5UENqkeQ8AAMBqFX26Fx0AAAAAAGCrD1w7ASI=
+  </data>
+ </layer>
+ <layer name="box" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0EERAAAEAEGC6V9LCYbHboKbiwAAAAAAgF2V1wV/eQMAAABzGuKfAH0=
+  </data>
+ </layer>
+ <layer name="grass" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl2EOgCAIhVs37P6Xaa0/rEk+AUPtfZtzbSY8waBtI4T8lWPHhlw/Gk8/V9DRMmZFxmtmtFjU8m/EeGo6Smve/M3WEcUqOgghhNx4eqoR6nWt9iK6kH4Y0Wk9B7SHqPmtPVtj2qqhtEfJtvYPgsQS8cOTj9q5oTaj7kPUHnLO8EHu4/FDztb3s4k6h2z+pMNSH7+uiV5bWp2w1A8PUd9tdH0vvHnVaqsXaF2OsPPlfenFKjouZtKh3Z+eGmr9bMluS38b3U9qaL046u8oNfHNj5lymRBCCCEkixPb2FII
+  </data>
+ </layer>
+ <objectgroup name="object" width="50" height="50">
+  <object name="x11y43" x="176" y="688" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="holeToWorld"/>
+   </properties>
+  </object>
+  <object name="x43y28" x="688" y="448" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="something"/>
+   </properties>
+  </object>
+  <object name="x14y30" x="224" y="480" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="removeHoleRound"/>
+   </properties>
+  </object>
+  <object name="x8y9" x="128" y="144" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="bossFight"/>
+   </properties>
+  </object>
+  <object name="x9y9" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="bossFight"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

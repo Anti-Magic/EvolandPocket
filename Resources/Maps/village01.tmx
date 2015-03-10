@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="game.dat_000017" tilewidth="16" tileheight="16">
+  <image source="map032.png" width="64" height="512"/>
+ </tileset>
+ <tileset firstgid="129" name="game.dat_000023" tilewidth="16" tileheight="16">
+  <image source="village01.png" width="464" height="256"/>
+ </tileset>
+ <tileset firstgid="593" name="game.dat_000011" tilewidth="16" tileheight="16">
+  <image source="npc.png" width="256" height="32"/>
+ </tileset>
+ <layer name="trans" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2skJACAMBMBghfZfjfiwA+/MQP77yhJIBAAA5FTL6QQAnKQHAACAWfp9MQYAMtB5AAAAcB/3OrDKK/vllZwAAAA/8DMJAHs0OVIDhw==
+  </data>
+ </layer>
+ <layer name="stop" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOwyAMRKuesPc/TRdRpCz4+DMDJponZZMSsBk8pp+PEEIIIYQQQgghhBBCCCFuft/rEe/j1lZPf38Qe8wYi6BqXVv0iPqS9PCj+qjFSA+rx3m90BMHixP1YM3NWs9D1H8RPj5bw/MeMTdrPes61n2M1Hg2j5lfMebOjm19671PrtA/soej8VlNnrnP5kGskx03i7OVD9qzsjH2xq7s5yu9rvVupR6RNdF1yvw2slbk/uiZ3xMHalw0jsi3nr6yG+S5z+TF1oO5PpKIrzB81HtH8pztE/Rg5L+yB6DvClGPRfngzl6U/ZZxd2P1vF1119oj1vlA6pHp50g9sn6Fvp+w/WoW9249ouNZsOKe1UYGa915zmxFPSz3Ja8eiBruzd37baRHL56qelj8Zfd588TJ1GO0F+jeOKobizZVzluLU+rD8v752+jsVcnPSpV4o3qw732rqRLviX7DoEq+0uOiSr5Zv6mSR5YqeSD+m3n+w1SlStzW3mzt3aj5djxv4Q318SakRy2khxACzR9VraB7
+  </data>
+ </layer>
+ <layer name="background" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOwyAMBVB6/4Whl2LrkaoOqMgCQrDBNvlIX6oalYBfKCSGECKCIAiCNPJ5/T8HA+PxnF8t76T3e3js95gxQ+559K6XbcQvDPSJyHhgfezxkEpu2nPyHPpMY++w4YG9XD9p0qPnqD0n75ndF+Ahl9Ha1jx660N7Xl5DPUZMsG/s9eCaaM/Jc1oeLZPc4LEuqah/7RrdJ648kvD4npBUidR7Bzz4HlIW8JD3yA0edkywPvRNci25NtpzOiGlAdfD2vp4d6I9tp6H1H+WJw8rVrXzrvQ+ou1wiof0+deSjZQVJy2Pno3k/5VlDw2fmbXC9aD9aNfZuoeUAT0nl/G2NqjHaueWB3ct1NZFLL7XrrEHD0kT6pH792ax0uPOPVadqeAxfw9qMnIOvnNW1q7zaD0seMzU/GoftxxvHlcmV07a9T7Rg5Pd4+f0p/HOBw94PN2D4+bJY+dzvGOM8FjjMTvOVl/wsBXLHqNe2jWEx7nx5mFhDLvmGIP9OcHDVk63oAYnzctr4GE30h5fS8HB2g==
+  </data>
+ </layer>
+ <layer name="grass" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6D1D2oOW0wPSEACAAAAAAAAAAAAAAAAAD1zHQAAAAAAgMcWOgsA5w==
+  </data>
+ </layer>
+ <layer name="box" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6AVs38tW0wPSEACAEDDXAcAAAAAAAAAAAAAAAAAAAAAgPcWqxgAPg==
+  </data>
+ </layer>
+ <layer name="other" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="npc" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOQDAQQNHGDQnCkiDc/wK2YmEjYtq8d4KZ/KaTEgAAAAAAAAAAwLOm+nsCruaPerQ6h7LoAcBPejcolE0P4MHgjwhl14OCjIW95y7zfY7M579bC9sHAN6q3cZQJj0AAAjiBMNBBTM=
+  </data>
+ </layer>
+ <objectgroup name="object" width="100" height="50">
+  <object name="x23y45" x="368" y="720" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="villageToWorld"/>
+   </properties>
+  </object>
+  <object name="x24y45" x="384" y="720" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="villageToWorld"/>
+   </properties>
+  </object>
+  <object name="x86y18" x="1376" y="288" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="villageToWorld2"/>
+   </properties>
+  </object>
+  <object name="x85y18" x="1360" y="288" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="villageToWorld2"/>
+   </properties>
+  </object>
+  <object name="x87y18" x="1392" y="288" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="villageToWorld2"/>
+   </properties>
+  </object>
+  <object name="x16y36" x="256" y="576" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house1"/>
+   </properties>
+  </object>
+  <object name="x36y33" x="576" y="528" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house2"/>
+   </properties>
+  </object>
+  <object name="x58y36" x="928" y="576" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house3"/>
+   </properties>
+  </object>
+  <object name="x32y23" x="512" y="368" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="house4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer name="other2" width="100" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmNlNxDAQhhMa4mqDqxKOOjjq4CgBXjn2bSkB6AOYfYh2NbIdJ449v7P/J41WkVbJxN94YnvRNM1CBbFDu6APW+gDC/rAgj6woA8stsnHVWudQT/b5KMG6AML+sCCPrCgj+k5l3XDhcRlO3wNUZuP1wrWSNeS443ErcTdzH3UwL04eJB4lHiij2L4+tJqDr9JvEt80EcxUvqSD/oYT0pf8kEf40npSz5q9KH7dsr6Eo0afOjx1n1bX9fsx9LHs8RLxP/0eOu+ra9r8ePKC3F+6Dz1eOu+ra/7/Fi/T4crL0QfOs/Y72a3d+/zUxpfPbjySvVxIPc5bNe/UzBk/JYSnz33y7EOGoLvfVx5pfo4lfuctevfKbAev6kZ8j6I82ObQZwfJdk8L0aYi5wfWMx9fqDV/4rQfghxvTt3QvshJB+x+/XaCa3nkXyg8CVj9B2In8S+F1r/lvaBepa0ya/k9ReIZiffs1N8jOkvFmdJpfpgqNZi67D0/LA+S3IRc+YSQ6jWYuswpw9fTXS904Jdee6exH6G54dqLbYOc/qwPud2cSR5HEucZMgn9J2OPcPK6QOxN6GT08fczmlLwP0HFvSBBX1gQR9Y0AcW9IEFfWBBH1jQBxb0gQV9YPEPFwh67g==
+  </data>
+ </layer>
+</map>

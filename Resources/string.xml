@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>new</key>
+	<string>新的游戏</string>
+	<key>continue</key>
+	<string>继续游戏</string>
+	<key>exit</key>
+	<string>退出游戏</string>
+	<key>get</key>
+	<string>你得到了</string>
+	<key>yes</key>
+	<string>确定</string>
+	<key>no</key>
+	<string>取消</string>
+	<key>readyquitgame</key>
+	<string>确认返回标题页吗？</string>
+	<key>readyFinishEnd</key>
+	<string>通关！是否返回标题页？</string>
+	<key>readystartnewgame</key>
+	<string>将会删除已有的进度
+		确认开始新游戏吗？</string>
+	<key>me</key>
+	<string>我</string>
+	<key>girl</key>
+	<string>女孩</string>
+	<key>enemy1</key>
+	<string>软泥怪</string>
+	<key>enemy2</key>
+	<string>托克</string>
+	<key>boss</key>
+	<string>邪恶之源</string>
+	<key>attack</key>
+	<string>攻击</string>
+	<key>escape</key>
+	<string>逃跑</string>
+	<key>treat</key>
+	<string>治疗</string>
+	<key>roundtip1</key>
+	<string>触摸选择怪物</string>
+	<key>escsuccess</key>
+	<string>逃跑成功</string>
+	<key>escfail</key>
+	<string>逃跑失败</string>
+	<key>ok</key>
+	<string>是</string>
+	<key>not</key>
+	<string>否</string>
+	<key>talk1</key>
+	<string>谢谢你救了我</string>
+	<key>talk2</key>
+	<string>我的家乡被怪物占领了</string>
+	<key>talk3</key>
+	<string>你可以帮我拯救我的家乡吗？</string>
+	<key>talk4</key>
+	<string>太好了，你是我的英雄！</string>
+	<key>sorry</key>
+	<string>抱歉，我不和小孩子说话</string>
+	<key>boss1</key>
+	<string>  Boss：       游戏结束了！哈哈哈           </string>
+
+	<key>girl1</key>
+	<string>  女孩：          精灵石！                  </string>
+	<key>girl2</key>
+	<string>有这个就可以拯救我的家乡了！</string>
+	<key>girl3</key>
+	<string>有什么东西过来了！！！</string>
+
+	<key>girl4</key>
+	<string>  女孩：          对不起                    </string>
+	<key>girl5</key>
+	<string>让我最后一次…… 为你治疗吧</string>
+	<key>girl6</key>
+	<string>再见了，我的英雄……</string>
+
+	<key>end1</key>
+	<string>亲爱的，你看见了吗</string>
+	<key>end2</key>
+	<string>我长大了，变强了</string>
+	<key>end3</key>
+	<string>过去再美丽也回不去</string>
+	<key>end4</key>
+	<string>与其再去感伤</string>
+	<key>end5</key>
+	<string>还不如乐观坚强地活下去</string>
+	<key>end6</key>
+	<string>连同你的份</string>
+	<key>end7</key>
+	<string>但是请相信</string>
+	<key>end8</key>
+	<string>我们爱过彼此</string>
+	<key>end9</key>
+	<string>谢谢你给我的美丽回忆</string>
+	<key>end10</key>
+	<string>感谢你们成就了年幼的我</string>
+	<key>end11</key>
+	<string>想成为英雄的梦想</string>
+	<key>end12</key>
+	<string></string>
+	<key>end13</key>
+	<string>To</string>
+	<key>end14</key>
+	<string>伴随自己长大的RPG们</string>
+	<key>finishrate</key>
+	<string>游戏完成度：
+	游戏中共有宝箱：27
+	你获得的宝箱：</string>
+</dict>
+</plist>

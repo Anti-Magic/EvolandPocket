@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="50" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="game.dat_000022" tilewidth="16" tileheight="16">
+  <image source="map021.png" width="128" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="game.dat_000019" tilewidth="16" tileheight="16">
+  <image source="map022.png" width="64" height="512"/>
+ </tileset>
+ <layer name="stop" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztVm2OxSAI5P436G33x2YTQ2AcEN8+LZM0bZXPAWxFGo1Go9FoNBqNxol41NWI4VHPj7Hu6b2Zeyv/R+2xstb9dnicaA69NW3He78VqN9YXUvf68Mb5x31E3uNeiI+lx6fJ4LlwnuOrCGeTudvfNf7GZujbcTZDTO8cv4hW+OaJYPqdhKifbD6ffDOx1M5jP7fRewy39pvm2H0Lai+Zv69/Yj8J7GbL6Y/vbMN8fOfHGb6LCInEx0rFm9OvXemr3chyp8Ilx/j06uHp4PkdvI3q2t23mZ1j+yxPeTVsJK/nWcVM69jHAL2vDmPooo79sz5FH9MvJGYkY1q7mazh/xnubf0tT/LftSvJ7MKxn+lLcYHmk9UV+Tb26sAWzsvBxEcY4RDj5cV24x+BtZMZGaA3Y/yGPXtyeicq/uwIued/Mlwt/ZQTkyuSD4KpjZMDatqonnTtsWREbHj8nLRullkuZnFNrOP5LLw7FpySCfrN9p/Eb8R/nV/VMwv8rOKynmzcmdjZmxH6mfJVnOHYkMxR3syky/ji+GYySWLFZ9MTJUziGxW1jqCDH9sPyBfzHpED/GF8lzFDv5WcmV0vwk7+cv0Q7a3T0aUv8q+vgEz7pBMhuPbkOWm8YtHPb+pd6rx1hmsgOZF9+XfXZ+NjUajsQM/qQSQWQ==
+  </data>
+ </layer>
+ <layer name="trans" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0AEJACAQBMGvrQ1sbQd9ONCZBMtWAQAAcGOlAwAAAAAAaDHTAXxnpAMe5y8AAAAAAJzZTCIB9g==
+  </data>
+ </layer>
+ <layer name="background" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1csNhDAMBUAogdLSfzN7XAkBymeFN84c5gIKiZ/ssG/btgMAAABMqPzBGWYmP/nJb16lw8g+0fVGa83gF9lnIr938ztnGH3+aKP3X9YMa+dspP4M+R0XWbX8a8/PWu63TD3Ym+FR8a3sPXiX39Pzu3V3/fy0b3Ttb/dfqVgXXU90fjW92ZPf1bxn0ppfzfvVjPxT+bqatezzBytZYZ5XqJG56VFgFe47AABYxwdOJz8h
+  </data>
+ </layer>
+ <layer name="other" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztWMtu4zAM5DVI99LbHvcz3M1l01M/pQHag/Ml+8e7AkxgOhlKdOw+nGoAwZZIytKYpGibdXR0dHR0dHR0dHRsETtqHfOwo/udGI/svjP3av87kmV11fXWEXHCHEZcZvu3CsXV60xbtj9Y7Ie3GO81/8o2tBvsklcTutHYVhDx8AI6D6CL9wNcfUzp8XOidWwRyndaODTkj//bk73lTNncSgxH5y3nwBcaRx/1sSg+CwbS8fGTsNkSIj940OrNOqVW/+C5cobx+6ltEZkzg7n0Pscl9u+D5jhN17OQfSZa9VqtRXtucYGxrOS8PsRX4m9J/bGf2lwOOY59/EDjeFYzPpPDuX52nPSO1vY5xzhdI51XIXdwLWOij/x9NIct/jL4BffPCX3FYXb/R2gFH5EHa3zMjdOa/zFGaAXILdr9NM3pyS5RnvsE63Csyd9cTpa02tk4TnsdhUzZeU2C/qzAeXAt7jgO/foeXNXyXRZuhzGI45n518p7mTPA8YfuuU7jGJ3L3yjmMSGP9s3nATcV79lcXQPXAgpRDVCbc259F2GkPtucA/neLv0Aa6U5Z10LrRgsPob+gD42kDzrf0rHLPY/q8xVm39P+2Rel/DI+Q7vo2fMlbe4U3oq1tSY8t+IF/UvYSl/0TMjXlq6Sp7lT80T5SicC79/8ZsZ5xrEeLTupci+myjOUZ6NsdZ7UEC/Qx2831Of/0lE/6yXYI5vs5x9wfeI77/GoZn2FR4vwHqPZfgdzDGs9sP8rx3PvC6lg7quxzXtAPJMHVF7h24b/dcqNneVOQ1s7yrPuQaZeKr1y7qQowiYw3wvrVx1IFuWD6b/wxY7j+dyRW7X5C5a9zX50Pf4e9JR+4q+uzA3RWdLlEOz6ys10iP096B7LVrcZfI98xeBY9DhfPv/QbP4bPJ+tIa/jbWq/hJcw1/UmB+PTeeH8x/mfT470T56N9l3axX5UqzJH+6T9xqdv7VYRH7X/IZdE2vzxxzid0Qr/ks7BvJWbtgyor1G38jMo5pDzblWzH01ZHylxo2Z5tH7mdpxy1DcYSzW/K/jLReZb92OGK06t/MYg3nZiXvk78e7r6ijo+M74x/tz1ZP
+  </data>
+ </layer>
+ <layer name="grass" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1ksKwCAMBUCv4/0v2G0p/VCxNQkz4Moi8ZEUWwMAAAAARvXVBSQnP6jBLAMZ9d26+wYgKv+od/rJAsZEmJ8INVTydZ5X5/eH/Uwq3GGVVdll7b9jvSP1H++eLYOZZrwP/8iv0hs2av9FqSOr6vlVmb+V5EcE+hAA4L0NUcoHNg==
+  </data>
+ </layer>
+ <layer name="lrside" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztmAEOgzAIRb3S5o30/ndYmmhCCLRQdEr7X7Is2dpOnmDplgUAAAAAAAAAAAAgH9vxvj96FXmBvxjwFwP+YmztISJe3/R3Zr5X3nyV7k+Z+73mctKh+VuFsd9lbH9SzBpnvNyfZQ3ucBR/Ba9DyV+Pi6wONV9anVG4v5V8bkHaQzI69EI98vyzeOdz6bhs/s6c8fYttf221+GM/jzzJIc0f9/urrY39PTNuzLP0w97n5lP8i9/XjK4K/T0ZjVaNdyqSU+v9Aa0MwEfY3FordEsuWWB+9Nii+RFWfNzvEbD6k+bK3nN9PyPUMupaOy9Z7ZMSDFSp6PHfyfRGpw1/zzfR9YegTtjhD/kXwv4i6PtE9H4Z/FXsJzhetacyd/VsWb7HyDC1f5mOb8VZqqzO4C/GPAHAABj8ANZIS2F
+  </data>
+ </layer>
+ <layer name="udside" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2QsKwjAQRdFsKdANCd3/GkRwMA75TJpo87kHioKpbZ8zaYPOAQAAAACAu5x3nwAA3Ois3FqOgTqr5/ao3Fr594YPn9hWlrrmmizksyOzj67ZVXpZZ1K6R+TqqVRrPfp+BFIXlntqad73alxpfJihjJutx6+cb5iJV6+l8atJzUm1wnqLfVcqQz32aDyPWfSuqVeOo2f3r+cJqUHLc6J3c2T3b2F9Hu77ecap97NnJ9d3dT1h3UfnJ8edWez8LXnoMbF+XSGfK6QWw1rR81gsm13zSrE82+2SVzhXh3XS6z68Q465fptt3TSSHhnukD/zGEa1Q/+1sPQnPZyn16BC1lKw0+vQVrvlb1lbIK5nrez0O/ziGnf5bxe4G30GYBRPNVY10g==
+  </data>
+ </layer>
+ <layer name="box" width="80" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1UsOgCAMBUA8mPe/FnuCwQS0FWd2rCifvpYCAAAAZHUe0RUAPXoTuJMDsgIgr15GR+S2WQHsLFPGzday6iyZ7gR2EdlXevq/2rcfrZ/YE658+a+oHQAYMXMBAN5VATZpBRc=
+  </data>
+ </layer>
+ <objectgroup name="object" width="80" height="50">
+  <object name="x15y31" x="240" y="496" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="scrollEnable"/>
+   </properties>
+  </object>
+  <object name="x21y33" x="336" y="528" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="rollEnable"/>
+   </properties>
+  </object>
+  <object name="x23y28" x="368" y="448" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="soundEnable"/>
+   </properties>
+  </object>
+  <object name="x21y35" x="336" y="560" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x32y42" x="512" y="672" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="fightEnable"/>
+   </properties>
+  </object>
+  <object name="x35y36" x="560" y="576" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="enemyEnable"/>
+   </properties>
+  </object>
+  <object name="x42y33" x="672" y="528" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="musicEnable"/>
+   </properties>
+  </object>
+  <object name="x13y33" x="208" y="528" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="udEnable"/>
+   </properties>
+  </object>
+  <object name="x17y33" x="272" y="528" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="leftEnable"/>
+   </properties>
+  </object>
+  <object name="x25y23" x="400" y="368" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x30y23" x="480" y="368" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x41y28" x="656" y="448" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="saveEnable"/>
+   </properties>
+  </object>
+  <object name="x46y31" x="736" y="496" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="colorAEnable"/>
+   </properties>
+  </object>
+  <object name="x52y27" x="832" y="432" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="colorBEnable"/>
+   </properties>
+  </object>
+  <object name="x59y23" x="944" y="368" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="storyEnable"/>
+   </properties>
+  </object>
+  <object name="x37y15" x="592" y="240" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="passAUnlock"/>
+   </properties>
+  </object>
+  <object name="x54y10" x="864" y="160" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="sceneToWorldMap"/>
+   </properties>
+  </object>
+  <object name="x55y18" x="880" y="288" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="joystickEnable"/>
+   </properties>
+  </object>
+  <object name="x7y28" x="112" y="448" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x64y18" x="1024" y="288" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x46y12" x="736" y="192" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+  <object name="x68y35" x="1088" y="560" width="16" height="16">
+   <properties>
+    <property name="CallBack" value="star2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
