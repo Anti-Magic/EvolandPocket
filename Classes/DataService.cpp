@@ -13,6 +13,7 @@
 #include "GameSceneHole.h"
 #include "Virtualkeys.h"
 #include "Joystick.h"
+#include <sstream>
 
 USING_NS_CC;
 
@@ -329,20 +330,26 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 	auto document = new tinyxml2::XMLDocument();
 	auto fileName = _filePath + gameSceneName + "_tmp.xml";
 	document->LoadFile(fileName.c_str());
+	std::stringstream stream;
 	auto recordElement = document->RootElement();
 	{
 		auto mapElement = recordElement->FirstChildElement("map");
 		{
 			auto posElement = mapElement->FirstChildElement("pos");
 			int x = 0, y = 0;
-			sscanf(posElement->GetText(), "%d %d", &x, &y);
+			stream.clear();
+			stream << posElement->GetText();
+			stream >> x >> y;
 			data.gameMapPos = Vec2(x, y);
 			
 			auto grassElement = mapElement->FirstChildElement("grass");
 			auto grassTileElement = grassElement->FirstChildElement("tile");
 			while (grassTileElement) {
 				int x = 0, y = 0;
-				sscanf(grassTileElement->GetText(), "%d %d", &x, &y);
+				stream.clear();
+				stream << grassTileElement->GetText();
+				stream >> x >> y;
+				//sscanf(grassTileElement->GetText(), "%d %d", &x, &y);
 				data.cutgrassPos.push_back(Vec2(x, y));
 				grassTileElement = grassTileElement->NextSiblingElement();
 			}
@@ -351,7 +358,10 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 			auto boxTileElement = boxElement->FirstChildElement("tile");
 			while (boxTileElement) {
 				int x = 0, y = 0;
-				sscanf(boxTileElement->GetText(), "%d %d", &x, &y);
+				stream.clear();
+				stream << boxTileElement->GetText();
+				stream >> x >> y;
+				//sscanf(boxTileElement->GetText(), "%d %d", &x, &y);
 				data.openboxPos.push_back(Vec2(x, y));
 				boxTileElement = boxTileElement->NextSiblingElement();
 			}
@@ -360,7 +370,10 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 			auto destroyTileElement = destroyElement->FirstChildElement("tile");
 			while (destroyTileElement) {
 				int x = 0, y = 0;
-				sscanf(destroyTileElement->GetText(), "%d %d", &x, &y);
+				stream.clear();
+				stream << destroyTileElement->GetText();
+				stream >> x >> y;
+				//sscanf(destroyTileElement->GetText(), "%d %d", &x, &y);
 				data.destroyPos.push_back(Vec2(x, y));
 				destroyTileElement = destroyTileElement->NextSiblingElement();
 			}
@@ -369,12 +382,18 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 		{
 			auto posElement = playerElement->FirstChildElement("pos");
 			int x = 0, y = 0;
-			sscanf(posElement->GetText(), "%d %d", &x, &y);
+			stream.clear();
+			stream << posElement->GetText();
+			stream >> x >> y;
+			//sscanf(posElement->GetText(), "%d %d", &x, &y);
 			data.playerPos = Vec2(x, y);
 
 			auto facetoElement = playerElement->FirstChildElement("faceto");
 			int faceto;
-			sscanf(facetoElement->GetText(), "%d", &faceto);
+			stream.clear();
+			stream << facetoElement->GetText();
+			stream >> faceto;
+			//sscanf(facetoElement->GetText(), "%d", &faceto);
 			data.playerFaceto = static_cast<Tools::Direction>(faceto);
 		}
 		
@@ -383,7 +402,10 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 			auto posElement = enemyElement->FirstChildElement("pos");
 			while(posElement) {
 				int x = 0, y = 0;
-				sscanf(posElement->GetText(), "%d %d", &x, &y);
+				stream.clear();
+				stream << posElement->GetText();
+				stream >> x >> y;
+				//sscanf(posElement->GetText(), "%d %d", &x, &y);
 				data.enemyPos.push_back(Vec2(x, y));
 				posElement = posElement->NextSiblingElement("pos");
 			}
@@ -391,7 +413,10 @@ SceneData DataService::loadSceneData(const std::string& gameSceneName)
 			auto facetoElement = enemyElement->FirstChildElement("faceto");
 			while(facetoElement) {
 				int faceto = 0;
-				sscanf(facetoElement->GetText(), "%d", &faceto);
+				stream.clear();
+				stream << facetoElement->GetText();
+				stream >> faceto;
+				//sscanf(facetoElement->GetText(), "%d", &faceto);
 				data.enemyFaceto.push_back(static_cast<Tools::Direction>(faceto));
 				facetoElement = facetoElement->NextSiblingElement("faceto");
 			}
